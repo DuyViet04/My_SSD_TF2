@@ -55,7 +55,7 @@ def create_tf_example(group, path):
     width, height = image.size
 
     filename = group.filename.encode('utf8')
-    image_format = b'png'
+    image_format = b'jpg'
     xmins = []
     xmaxs = []
     ymins = []
